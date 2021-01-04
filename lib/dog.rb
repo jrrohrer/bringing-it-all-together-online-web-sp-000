@@ -70,6 +70,9 @@ class Dog
     SQL
     
     dog =  DB[:conn].execute(sql, name, breed).first
+    
+    if dog
+      new_dog
   end
   
   def self.find_by_name
