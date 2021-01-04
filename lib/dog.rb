@@ -74,7 +74,7 @@ class Dog
     if dog
       new_dog = self.new_from_db(dog)
     else
-      
+      self.new
   end
   
   def self.find_by_name
