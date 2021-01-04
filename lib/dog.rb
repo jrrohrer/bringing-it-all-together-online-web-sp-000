@@ -42,7 +42,9 @@ class Dog
   end
   
   def self.new_from_db
-    
+    attr_hash = {
+      
+    }
     
   end
   
